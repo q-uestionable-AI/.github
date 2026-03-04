@@ -97,5 +97,4 @@ Each tool installs independently.
 
 ## Responsible Use
 
-These are defensive security testing tools — analogous to Metasploit, Burp Suite, and Nuclei.  
-Only test systems you own, control, or have explicit permission to test.
+These are offensive security testing tools. Only test systems you own, control, or have explicit permission to test.
