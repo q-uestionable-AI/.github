@@ -8,8 +8,6 @@ Security and Research tools for AI infrastructure.
 
 **[CounterSignal](https://github.com/q-uestionable-AI/countersignal)** — Indirect prompt injection, context poisoning, retrieval poisoning
 
-**[Mutual Dissent](https://github.com/q-uestionable-AI/mutual-dissent)** — Cross-vendor multi-model debate, consensus dynamics, reflection-as-attack-surface
-
 ---
 
 ## The Suite
@@ -45,43 +43,11 @@ CounterSignal tests the files, contexts, and retrieval layers that feed into age
 
 ---
 
-### Mutual Dissent — Multi‑Model Debate & Consensus Security
-
-Mutual Dissent tests the consensus layer of agentic systems — sending queries to multiple cross‑vendor models simultaneously, sharing competing responses for reflection, and synthesizing a final answer. The debate transcript becomes the research artifact.
-
-- Cross‑vendor disagreement and convergence mapping
-- Consensus‑poisoning and influence‑dynamics research
-- Per‑panelist context injection for cross‑tool experiments
-
-**Repository:** https://github.com/q-uestionable-AI/mutual-dissent  
-**Documentation:** https://docs.mutual-dissent.dev
-
----
-
-## Composable Workflows
-
-### CounterAgent + CounterSignal — Find It, Prove It
-CounterAgent identifies a vulnerable MCP server and injects a poisoned tool.  
-CounterSignal confirms the downstream agent **executed** the payload via callback.
-
-### CounterSignal + Mutual Dissent — Cross‑Model Vulnerability Coverage
-A prompt‑injection payload lands against Claude.  
-Mutual Dissent tests whether it also lands against GPT, Gemini, Llama, and Grok.
-
-### CounterAgent + Mutual Dissent — Trust Under Pressure
-Serve a poisoned tool to multiple models simultaneously and observe whether cross‑vendor reflection mitigates or amplifies deception.
-
-### Full Kill Chain
-Map the server → exploit the tool → prove execution → test cross‑model transfer → write detection rules.
-
----
-
 ## Install
 
 ```bash
 pip install counteragent
 pip install countersignal
-pip install mutual-dissent
 ```
 
 Each tool installs independently.
