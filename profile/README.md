@@ -2,7 +2,7 @@
 
 ## [{q-AI}](https://q-uestionable.ai)
 
-Security and Research tools for AI infrastructure.
+Security research tools for agentic AI infrastructure.
 
 **[CounterAgent](https://github.com/q-uestionable-AI/counteragent)** — MCP server scanning, traffic interception, tool poisoning, agent-chain exploitation
 
