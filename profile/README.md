@@ -1,62 +1,41 @@
-
-
 ## [{q-AI}](https://q-uestionable.ai)
 
 Security research tools for agentic AI infrastructure.
 
-**[CounterAgent](https://github.com/q-uestionable-AI/counteragent)** — MCP server scanning, traffic interception, tool poisoning, agent-chain exploitation
-
-**[CounterSignal](https://github.com/q-uestionable-AI/countersignal)** — Indirect prompt injection, context poisoning, retrieval poisoning
+MCP server scanning, traffic interception, tool poisoning, agent-chain exploitation, indirect prompt injection, context poisoning, retrieval poisoning
 
 ---
 
-## The Suite
+## The Platform
 
-### CounterAgent — Protocol & System Security
-
-CounterAgent tests the "pipes" and logic that connect agents to the real world.
+{q-AI} is a unified offensive security platform with seven research modules for testing agentic AI infrastructure end-to-end.
 
 | Module | Focus |
 |--------|-------|
 | `audit` | Automated MCP server scanning mapped to the OWASP MCP Top 10 |
 | `proxy` | Interactive interception proxy for MCP traffic |
-| `inject` | Tool‑output poisoning and trust‑boundary testing |
-| `chain` | Multi‑agent exploitation and delegation‑chain analysis |
+| `inject` | Tool-output poisoning and prompt injection testing against any LLM provider |
+| `chain` | Multi-step attack chain execution across trust boundaries |
+| `ipi` | Indirect prompt injection across 7 document formats with callback tracking |
+| `cxp` | Coding assistant context-file poisoning across 6 IDE formats |
+| `rxp` | Retrieval-layer adversarial measurement for RAG poisoning |
 
-**Repository:** https://github.com/q-uestionable-AI/counteragent  
-**Documentation:** https://docs.counteragent.dev
-
----
-
-### CounterSignal — Content & Supply Chain Security
-
-CounterSignal tests the files, contexts, and retrieval layers that feed into agents — and proves execution.
-
-| Module | Focus |
-|--------|-------|
-| `IPI` | Indirect prompt injection across 7 document formats with out‑of‑band callback tracking |
-| `CXP` | Coding assistant context‑file poisoning across 6 IDE formats |
-| `RXP` | Retrieval‑layer adversarial optimization for RAG poisoning |
-
-**Repository:** https://github.com/q-uestionable-AI/countersignal  
-**Documentation:** https://docs.countersignal.dev
+**Repository:** https://github.com/q-uestionable-AI/qai
+**Documentation:** https://docs.q-uestionable.ai
 
 ---
 
 ## Install
 
 ```bash
-pip install counteragent
-pip install countersignal
+pip install q-uestionable-ai
 ```
-
-Each tool installs independently.
 
 ---
 
 ## Research
 
-- Technical findings: https://mlsecopslab.io/research  
+- Technical findings: https://mlsecopslab.io/research
 - Methodology & commentary: https://richardspicer.io/blog
 
 ---
