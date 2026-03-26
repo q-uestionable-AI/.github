@@ -1,14 +1,14 @@
 ## [{q-AI}](https://q-uestionable.ai)
 
-Security research tools for agentic AI infrastructure.
+Security testing for agentic AI.
 
-MCP server scanning, traffic interception, tool poisoning, agent-chain exploitation, indirect prompt injection, context poisoning, retrieval poisoning
+MCP server scanning, traffic interception, tool poisoning, attack chain execution, indirect prompt injection, context file poisoning, RAG retrieval measurement.
 
 ---
 
-## The Platform
+## Modules
 
-{q-AI} is a unified offensive security platform with seven research modules for testing agentic AI infrastructure end-to-end.
+{q-AI} is seven modules for testing agentic AI, sharing a CLI, SQLite database, and local web UI.
 
 | Module | Focus |
 |--------|-------|
@@ -18,7 +18,7 @@ MCP server scanning, traffic interception, tool poisoning, agent-chain exploitat
 | `chain` | Multi-step attack chain execution across trust boundaries |
 | `ipi` | Indirect prompt injection across 7 document formats with callback tracking |
 | `cxp` | Coding assistant context-file poisoning across 6 IDE formats |
-| `rxp` | Retrieval-layer adversarial measurement for RAG poisoning |
+| `rxp` | Measures whether adversarial documents appear in top-k RAG retrieval results |
 
 **Repository:** https://github.com/q-uestionable-AI/qai
 **Documentation:** https://docs.q-uestionable.ai
@@ -42,4 +42,4 @@ pip install q-uestionable-ai
 
 ## Responsible Use
 
-These are offensive security testing tools. Only test systems you own, control, or have explicit permission to test.
+These are security testing tools. Only test systems you own, control, or have explicit permission to test.
