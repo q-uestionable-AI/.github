@@ -25,6 +25,12 @@ MCP server scanning, traffic interception, tool poisoning, attack chain executio
 
 ---
 
+## Bring What You Have
+
+Already running [Garak](https://github.com/NVIDIA/garak) or [PyRIT](https://github.com/Azure/PyRIT)? Import their results and let qai prove whether the weaknesses they found are exploitable in real agentic systems. Also supports SARIF from any tool.
+
+---
+
 ## Install
 
 ```bash
