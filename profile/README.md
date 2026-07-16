@@ -17,9 +17,9 @@ scope, or intended audience are not preserved.
 - Preferred CLI: `ctpf`
 - Compatibility alias during the identity transition: `qai`
 
-### [RISI](https://github.com/q-uestionable-AI/RISI)
+### [RISI Research Harness](https://github.com/q-uestionable-AI/RISI)
 
-RISI is a pre-experimental security research project studying Retrieval-Induced State
+RISI Research Harness is a pre-experimental security research project studying Retrieval-Induced State
 Interference and Critical Recall Availability Failure in persistent AI-agent memory.
 
 RISI and CRAF are conceptually distinct from CTPF. Their terms and hypotheses are proposed
