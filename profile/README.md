@@ -1,36 +1,52 @@
 # [q-uestionable-AI](https://q-uestionable.ai)
 
-Security research for agentic systems and persistent AI memory.
+Evidence-first, human-governed security research for agentic systems and persistent AI memory.
 
-## Projects
+[Website](https://q-uestionable.ai) · [Published research](https://mlsecopslab.io/research) ·
+[Richard Spicer](https://richardspicer.io)
+
+## Research projects
 
 ### [CTPF Research Harness](https://github.com/q-uestionable-AI/CTPF)
 
-**Trust-boundary testing for agentic systems**
+**Evidence-first capability-trust experiments for agentic systems**
 
-CTPF Research Harness investigates Capability Trust Propagation Failure: whether low-trust data
-is silently promoted into higher-authority actions when provenance, integrity, authorization
-scope, or intended audience are not preserved.
+CTPF investigates Capability Trust Propagation Failure: whether data crossing tools, artifacts,
+sessions, or capabilities acquires authority that its provenance, integrity, authorization scope,
+or intended audience does not justify.
 
-- Documentation: https://ctpf.q-uestionable.ai
-- Package: `q-uestionable-ai`
-- Preferred CLI: `ctpf`
-- Compatibility alias during the identity transition: `qai`
+The `ctpf` package is the project's reference research harness. It is not a general scanner,
+red-team platform, proxy product, or autonomous workflow orchestrator. It coordinates controlled
+conditions and preserves integrity-checkable evidence for human scientific adjudication.
+
+- [Documentation](https://ctpf.q-uestionable.ai)
+- [Source](https://github.com/q-uestionable-AI/CTPF)
 
 ### [RISI Research Harness](https://github.com/q-uestionable-AI/RISI)
 
-RISI Research Harness is a pre-experimental security research project studying Retrieval-Induced State
-Interference and Critical Recall Availability Failure in persistent AI-agent memory.
+**Controlled research into persistent AI-agent memory**
 
-RISI and CRAF are conceptually distinct from CTPF. Their terms and hypotheses are proposed
-research directions, not validated findings.
+RISI is an agent-operable, human-governed research harness for studying Retrieval-Induced State
+Interference, RISI-C, Critical Recall Availability Failure, and related memory behavior.
 
-## Research
+These terms and hypotheses remain proposed research directions. The implemented deterministic
+reference paths and synthetic controlled mechanisms are not evidence that an external system has
+a vulnerability or exhibits the proposed phenomena.
 
-- Technical findings: https://mlsecopslab.io/research
-- Methodology and commentary: https://richardspicer.io/blog
+- [Documentation](https://risi.q-uestionable.ai)
+- [Source](https://github.com/q-uestionable-AI/RISI)
 
-## Responsible Use
+CTPF and RISI are distinct research programs. Their repositories and public documentation are
+authoritative for current releases, source-only capabilities, safety boundaries, and supported use.
 
-These projects are for authorized security research. Only test systems you own, control, or have
-explicit permission to test.
+## Research and writing
+
+- Structured public findings: [mlsecopslab.io/research](https://mlsecopslab.io/research)
+- Narrative analysis and commentary: [richardspicer.io/blog](https://richardspicer.io/blog)
+
+## Responsible use
+
+Use these projects only with systems you own, control, or have explicit authorization to test.
+Follow each repository's security, safety, evidence, and disclosure guidance. A public source
+capability or example does not grant authority to run a target, use credentials, create external
+effects, publish a finding, or make a scientific claim.
